@@ -3,7 +3,7 @@ return array(
     /**
     * The parameter to use package built in routes.
     */
-    'use_built_in_route' => true,
+    'use_package_routes' => true,
 
     'base_uri' => 'poll',
 );

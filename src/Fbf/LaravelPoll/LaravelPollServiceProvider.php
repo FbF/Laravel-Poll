@@ -20,7 +20,7 @@ class LaravelPollServiceProvider extends ServiceProvider {
 	{
 		$this->package('fbf/laravel-poll');
 
-        if (\Config::get('laravel-ratings::use_package_routes', true))
+        if (\Config::get('laravel-poll::use_package_routes', true))
 		{
 		    include __DIR__.'/../../routes.php';
 	    }
